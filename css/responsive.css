@@ -1376,3 +1376,36 @@
     }
 }
 
+/* Responsive Design */
+
+/* Large screens (lg) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+  }
+  
+  /* Medium screens (md) */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+  }
+  
+  /* Small screens (sm) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+  }
+  
+  /* Extra small screens (xs) */
+  @media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+        margin: 0 auto;
+    }
+  }

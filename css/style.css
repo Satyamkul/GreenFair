@@ -993,3 +993,56 @@ ul.entry-meta {
 .main-content.container.blog-wrap.single-blog {
   margin-top: 80px;
 }
+
+/* sustainability living */
+
+section {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  color: #43a906;
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.5;
+}
+
+ul {
+  padding-left: 2rem;
+}
+
+li::before {
+  content: '\2022';
+  color: #43a906;
+  margin-right: 0.5rem;
+}
+/* Global Styles */
+
+section{
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
